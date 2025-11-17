@@ -1,11 +1,10 @@
-package question01;
 
 /*
  2.	Find the largest and smallest of three numbers
 Description: Read three integers and print the largest and smallest.
  */
 
-public class Question01 {
+public class Question02 {
     public static void main(String[] args) {
         System.out.println(largest(35, 48, -89));
         System.out.println(smallest(35,48,-89));
