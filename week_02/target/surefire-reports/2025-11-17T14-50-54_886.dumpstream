@@ -1,0 +1,5 @@
+# Created at 2025-11-17T14:50:55.370
+Boot Manifest-JAR contains absolute paths in classpath 'D:\SKYTEAMS\SkyTeams-Internship-2025-Fall-ZaidNayeb\Skyteams-Intenship-2025-Fall-ZaidNayeb\week_02\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
