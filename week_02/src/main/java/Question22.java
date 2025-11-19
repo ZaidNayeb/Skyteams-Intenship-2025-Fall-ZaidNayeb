@@ -12,12 +12,16 @@ Output: 2, 4, 6, 8, 10
 public class Question22 {
     public static String printEven(int a, int b){
         StringBuilder numbers = new StringBuilder();
+        if (a > b){
+            a = a + b;
+            b = a - b;
+            a = a - b;
+        }
         for (int i = a; i <= b; i++){
             if ( i % 2 == 0 ){
                 numbers.append(i);
                 if (i < b ){
                     numbers.append(", ");
-                    
                 }
             }
         }

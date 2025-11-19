@@ -12,13 +12,13 @@ Output: a = 10, b = 5
 public class Question01 {
 
     public static String swapVariable(int a, int b){
-        a = a ^ b;
-        b = a ^ b;
-        a = a ^ b;
+//        a = a ^ b;
+//        b = a ^ b;
+//        a = a ^ b;
 
-//       a = a + b;
-//       b = a - b;
-//       a = a - b;
+       a = a + b;
+       b = a - b;
+       a = a - b;
         return "a = "+ a + " b = " + b;
     }
 }
