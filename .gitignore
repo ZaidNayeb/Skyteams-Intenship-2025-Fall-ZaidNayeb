@@ -1,0 +1,21 @@
+# IDE folders
+.idea/
+.vscode/
+
+# Java build files
+target/
+*.class
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+target/
+*.class
+*.log
+.DS_Store
+Thumbs.db
