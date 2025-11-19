@@ -17,6 +17,7 @@ public class Question22 {
                 numbers.append(i);
                 if (i < b ){
                     numbers.append(", ");
+                    
                 }
             }
         }
