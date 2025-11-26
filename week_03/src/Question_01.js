@@ -12,7 +12,7 @@ Input:
 
 function countVowels(str) {
     const lowerStr = str.toLowerCase();
-    // Include 'y' as vowel per tests' expectations
+   
     const vowels = ['a', 'e', 'i', 'o', 'u', 'y'];
     let count = 0;
     for (let i = 0; i < lowerStr.length; i++) {

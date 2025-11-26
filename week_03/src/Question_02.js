@@ -9,20 +9,35 @@ Example: Input:
 
 */
 
-function reverseNumber(number) {
-    // Return NaN for invalid non-number inputs
-    if (typeof number !== 'number' || isNaN(number)) return NaN;
+function reverseNumber(num) {
+  let reverse = 0;
 
-    const sign = number < 0 ? -1 : 1;
-    let n = Math.abs(Math.trunc(number)); // ignore fractional part if any
+  if (num < 0) {
+    num *= -1;
 
-    let reversed = 0;
-    while (n > 0) {
-        reversed = reversed * 10 + (n % 10);
-        n = Math.floor(n / 10);
+    while (num > 0) {
+      reverse += num % 10;
+      if (num >= 10) {
+        reverse *= 10;
+      }
+      num = Math.floor(num / 10);
     }
 
-    return sign * reversed;
+    reverse *= -1;
+    return reverse;
+
+  } else {
+    while (num > 0) {
+      reverse += num % 10;
+      if (num >= 10) {
+        reverse *= 10;
+      }
+      num = Math.floor(num / 10);
+    }
+
+    return reverse;
+  }
 }
 
-module.exports = { reverseNumber };
+console.log(reverseNumber(12345));  
+console.log(reverseNumber(-987));   
