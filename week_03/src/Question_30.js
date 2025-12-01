@@ -21,3 +21,4 @@ function findMissingNumber(arr) {
     }
     return arr.length + 1;
 }
+module.exports = findMissingNumber;

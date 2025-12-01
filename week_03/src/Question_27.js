@@ -35,3 +35,4 @@ function findUnique(arr) {
     }
     return unique;
 }
+module.exports = findUnique;

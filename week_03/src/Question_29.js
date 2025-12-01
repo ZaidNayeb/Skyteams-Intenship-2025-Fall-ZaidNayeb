@@ -17,11 +17,14 @@ let arr2 = [1, 2, 3];
 console.log(equalArray(arr1, arr2));
 
 function equalArray(arr1, arr2) {
-
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
     for (let i = 0; i < arr1.length; i++) {
         if (arr1[i] != arr2[i]) {
-            return " not Equal";
+            return false;
         }
     }
-    return "equal";
+    return true;
 }
+module.exports =  equalArray;

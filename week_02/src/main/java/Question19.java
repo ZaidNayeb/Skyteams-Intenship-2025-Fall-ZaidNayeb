@@ -12,7 +12,7 @@ Example: Input:
 
 public class Question19 {
     public static void main(String[] args) {
-        reverseNumber(-456);
+        System.out.println(reverseNumber(-456));
     }
 
     public static long reverseNumber(long num){

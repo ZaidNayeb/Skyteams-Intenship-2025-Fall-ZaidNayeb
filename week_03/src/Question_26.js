@@ -10,12 +10,13 @@ Input:
 
 
 */
-console.log(toBinary(3));
+console.log(toBinary(2));
 
 
 function toBinary(decimal) {
+    if (decimal === 0) return [0];
     let arr = [];
-    while (decimal > 1) {
+    while (decimal >= 1) {
         arr.unshift(Math.floor(decimal % 2));
         decimal /= 2;
     }

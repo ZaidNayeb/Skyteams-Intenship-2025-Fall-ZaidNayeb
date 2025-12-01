@@ -19,3 +19,7 @@ target/
 *.log
 .DS_Store
 Thumbs.db
+node_modules/
+.env
+dist/
+build/
