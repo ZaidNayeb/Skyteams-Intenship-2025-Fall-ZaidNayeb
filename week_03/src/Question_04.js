@@ -19,3 +19,5 @@ function factorsOf(num) {
 }
 
 console.log(factorsOf(12)); 
+
+module.exports = factorsOf;

@@ -20,3 +20,6 @@ function containsElement(arr, element) {
 
 console.log(containsElement([3, 6, 9, 12], 6)); 
 console.log(containsElement([3, 6, 9, 12], 5)); 
+
+
+module.exports = containsElement;

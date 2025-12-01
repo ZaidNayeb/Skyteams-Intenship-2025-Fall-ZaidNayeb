@@ -20,3 +20,4 @@ function sumOfDigits(num) {
 }
 
 console.log(sumOfDigits(12345));
+module.exports = sumOfDigits;

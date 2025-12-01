@@ -21,3 +21,6 @@ function countOccurrences(arr, element) {
 }
 
 console.log(countOccurrences([2, 3, 2, 5, 2], 2));
+
+
+module.exports = countOccurrences;

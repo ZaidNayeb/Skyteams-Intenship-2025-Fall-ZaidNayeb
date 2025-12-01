@@ -11,17 +11,20 @@ Prime Input:
 Not Prime 
 
 */
+console.log(isPrime(10))
 
 function isPrime(num) {
   if (num < 2){ 
-    return "Not Prime";
+    return false;
   }
   for (let i = 2; i <= Math.sqrt(num); i++) {
     if (num % i === 0){ 
-        return "Not Prime";
+        return false;
     }
-  }
 
-  return "Prime";
+  }
+return true;
 }
  
+
+module.exports = isPrime;

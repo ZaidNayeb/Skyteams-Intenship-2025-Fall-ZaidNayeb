@@ -19,3 +19,5 @@ function largestElement(arr) {
 
   return max;
 }
+
+module.exports = largestElement;

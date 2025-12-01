@@ -22,3 +22,5 @@ function smallestElement(arr) {
 }
 
 console.log(smallestElement([4, 7, 9, 2])); 
+
+module.exports = smallestElement;
