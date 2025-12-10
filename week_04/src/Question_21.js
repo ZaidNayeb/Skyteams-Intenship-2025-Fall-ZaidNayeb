@@ -6,7 +6,7 @@ Date    :   2025/12/07
 Input: "babad" → "bab" or "aba" 
 */
 
-console.log(longetstPalindromeSubstring("babad"));
+console.log(longetstPalindromeSubstring("babab"));
 
 function isPalindrome(string) {
     let original = string;

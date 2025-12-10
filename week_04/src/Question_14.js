@@ -32,14 +32,14 @@ function stringPermutations(str) {
         }
 
         for (let j = left; j < a.length; j++) {
-            let tmp = a[left];
+            let temp = a[left];
             a[left] = a[j];
-            a[j] = tmp;
+            a[j] = temp;
 
             permute(a, left + 1);
-            tmp = a[left];
+            temp = a[left];
             a[left] = a[j];
-            a[j] = tmp;
+            a[j] = temp;
         }
     }
 
