@@ -9,6 +9,13 @@ Follow-up: solve in constant extra space using the matrix itself as markers.
 
 */
 
+let arr = [
+    [1, 1, 1],
+    [1, 1, 1],
+    [1, 0, 1]
+];
+console.log(setZeroes(arr));
+
 export function setZeroes(arr) {
     let rowZero = new Set();
     let colZero = new Set();
