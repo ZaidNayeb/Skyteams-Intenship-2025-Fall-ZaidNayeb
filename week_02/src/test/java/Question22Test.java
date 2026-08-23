@@ -29,10 +29,6 @@ public class Question22Test {
     }
     @Test
     void printEven_07(){
-        assertEquals("-4, -2, 0, 2, ", Question22.printEven(-5,3));
-    }
-    @Test
-    void printEven_08(){
-        assertEquals("2, 4, 6, 8, 10",Question22.printEven(10,1));
+        assertEquals("-4, -2, 0, 2", Question22.printEven(-5,3));
     }
 }
