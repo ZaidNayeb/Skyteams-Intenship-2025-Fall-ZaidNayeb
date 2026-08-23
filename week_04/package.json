@@ -1,0 +1,15 @@
+{
+  "name": "week-04-tests",
+  "version": "1.0.0",
+  "description": "Test files for week 04 questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^4.0.15"
+  }
+}
